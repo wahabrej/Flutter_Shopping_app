@@ -127,13 +127,17 @@ class HomePage extends StatelessWidget {
                 // Tabs ListView
                 SizedBox(
                   height: 50,
+                  
                   child: ListView.builder(
+                    
                     shrinkWrap: true,
+                    
                     scrollDirection: Axis.horizontal,
                     itemCount: tabs.length,
                     itemBuilder: (context, index) {
                       return FittedBox(
                         child: Container(
+                          
                           height: 40,
                           margin: EdgeInsets.all(8),
                           padding: EdgeInsets.only(left: 15, right: 15),
